@@ -1,0 +1,14 @@
+# Mode: Manual
+
+# Parameters for POW:
+$z_{s,fid}$       x       y       e       $θ_{e}$       $r_{Ein}$       $\gamma$ (PWI)
+
+# Parameter Flags for POW:
+
+
+# Parameters for PERT:
+$z_{s,fid}$       x       y       $\gamma$       $θ_{\gamma}$       NaN       $\kappa$
+
+# Parameter Flags for PERT:
+
+

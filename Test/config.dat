@@ -37,3 +37,9 @@ OPTIMIZE = 1                        # 1 - Flag for optimisation
 FINDIMG = 1                         # 1/0 - Flag
 WRITECRIT = 1                       # 1/0 - Flag
 WRITELENS = 1                       # 1/0 - Flag
+
+
+
+# DEFINE MODEL
+MODEL = POW+SHEAR                    # Any single component or combination of SIE, POW, NFW, SERS, EIN, PERT, MPOLE separated by '+'
+INIT_PARAM = 'Manual'                # Manual or Auto
