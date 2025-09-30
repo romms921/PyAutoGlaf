@@ -1,14 +1,22 @@
 # Mode: Manual
 
-# Parameters for POW:
-$z_{s,fid}$       x       y       e       $θ_{e}$       $r_{Ein}$       $\gamma$ (PWI)
+# Parameter Initial Guesses for POW:
+       $z_(l)$       $z_{s,fid}$       x       y       e       $θ_{e}$       $r_{Ein}$       $\gamma$ (PWI)
+Guess:                                                                                                         
+Flags:                                                                                                         
 
-# Parameter Flags for POW:
+# Parameter Initial Guesses for Source:
+       $z_{s,fid}$       x       y
+Guess:                                                                                                         
+Flags:                                                                                                         
 
+# Parameter Initial Guesses for PERT:
+       $z_(l)$       $z_{s,fid}$       x       y       $\gamma$       $θ_{\gamma}$       NaN       $\kappa$
+Guess:                                                                                                         
+Flags:                                                                                                         
 
-# Parameters for PERT:
-$z_{s,fid}$       x       y       $\gamma$       $θ_{\gamma}$       NaN       $\kappa$
-
-# Parameter Flags for PERT:
-
+# Parameter Initial Guesses for Source:
+       $z_{s,fid}$       x       y
+Guess:                                                                                                         
+Flags:                                                                                                         
 
