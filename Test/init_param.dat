@@ -2,16 +2,16 @@
 
 # Parameter Initial Guesses for POW:
        $z_(l)$       $z_{s,fid}$       x       y       e       $θ_{e}$       $r_{Ein}$       $\gamma$ (PWI)
-Guess:   0.2300     7.770000e-01  3.197980e-03 -5.702846e-03  4.731000e-01 -3.611298e+01  1.383255e+00  1.9                                                                                                    
-Flags:      0            0             0       0       0          0               0               0                   
+Guess:    0.2300  7.770000e-01  3.197980e-03 -5.702846e-03  4.731000e-01 -3.611298e+01  1.383255e+00  1.9                                                                                                     
+Flags:    0                 0          0       0        0           0              0                 0                 
 
 # Parameter Initial Guesses for PERT:
        $z_(l)$       $z_{s,fid}$       x       y       $\gamma$       $θ_{\gamma}$       NaN       $\kappa$
-Guess:    0.2300   7.770000e-01       0.0      0.0      0.03          -3.298301e+01  0.000000e+00  0.0                                                                                                    
-Flags:      0          0              0         0         0                0              0           0              
+Guess:      0.2300  7.770000e-01 0.0  0.0  0.03 -3.298301e+01  0.000000e+00  0.0                                                                                                   
+Flags:      0               0            0     0         0                  0              0              0            
 
 # Parameter Initial Guesses for Source:
        $z_{s,fid}$       x       y
-Guess:    0.777  -2.347666e-01 -9.181065e-02                                                                                                  
-Flags:      0           0         0                                                                              
+Guess:     0.777 -2.347666e-01 -9.181065e-02                                                                                                   
+Flags:      0            0       0                                                                                
 
