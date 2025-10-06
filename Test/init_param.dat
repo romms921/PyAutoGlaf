@@ -2,10 +2,11 @@
 
 # Parameter Initial Guesses for POW:
        $z_(l)$       $z_{s,fid}$       x       y       e       $θ_{e}$       $r_{Ein}$       $\gamma$ (PWI)
-Guess:     1                1          1        1     1             1           1                  1                   
-Flags:    1                 1         1          1     1             1         1                   1                   
+Guess:                                                                                                         
+Flags:                                                                                                         
 
 # Parameter Initial Guesses for Source:
        $z_{s,fid}$       x       y
-Guess:       1          1        1                                                                                
-Flags:       1          1         1                                                                               
+Guess:                                                                                                         
+Flags:                                                                                                         
+
