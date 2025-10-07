@@ -26,7 +26,7 @@ MAXLEV = 1                          # Maximum Level of Adaptive Meshing
 
 
 # SECONDARY PARAMETERS
-CHI2_PLANE = 0                      # 0 - Image Plane (SLOWER), 1 - Source Plane (FASTER)
+CHI2_PLANE = 1                      # 0 - Image Plane (SLOWER), 1 - Source Plane (FASTER)
 USEMAG = 0                          # 0 - Flux, 1 - Magnifications
 
 
@@ -41,7 +41,7 @@ WRITELENS = 1                       # 1/0 - Flag
 
 
 # DEFINE MODEL
-MODEL = NFW+SHEAR                         # Any single component or combination of SIE, POW, NFW, SERS, EIN, PERT, MPOLE separated by '+'
+MODEL = POW+SHEAR                         # Any single component or combination of SIE, POW, NFW, SERS, EIN, PERT, MPOLE separated by '+'
 INIT_PARAM = 'Random'               # Manual/Auto/Random
 PATH = Test/                        # Path for models to be saved to
 ZL = 0.2300                         # Lens Redshift
