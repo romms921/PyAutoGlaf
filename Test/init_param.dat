@@ -1,12 +1,17 @@
-# Mode: Manual
+# Mode: Random
 
 # Parameter Initial Guesses for POW:
        $z_(l)$       $z_{s,fid}$       x       y       e       $θ_{e}$       $r_{Ein}$       $\gamma$ (PWI)
-Guess:                                                                                                         
-Flags:                                                                                                         
+Guess: 0.23       0.777       0.0       0.0       0.2151643213734024       3.675984686336684       1.186242891494207       1.7672512172881294
+Flags: 1       1       1       1       1       1       1       1
+
+# Parameter Initial Guesses for PERT:
+       $z_(l)$       $z_{s,fid}$       x       y       $\gamma$       $θ_{\gamma}$       NaN       $\kappa$
+Guess: 0.23       0.777       0.0       0.0       0.03942915704628597       185.6646391718664       0       0.3746217865371982
+Flags: 1       1       1       1       1       1       1       1
 
 # Parameter Initial Guesses for Source:
        $z_{s,fid}$       x       y
-Guess:                                                                                                         
-Flags:                                                                                                         
+Guess: 0.777       0.0       0.0
+Flags: 1       1       1
 
