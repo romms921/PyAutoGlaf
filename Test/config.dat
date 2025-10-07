@@ -41,7 +41,7 @@ WRITELENS = 1                       # 1/0 - Flag
 
 
 # DEFINE MODEL
-MODEL = POW+SHEAR                         # Any single component or combination of SIE, POW, NFW, SERS, EIN, PERT, MPOLE separated by '+'
+MODEL = NFW+SHEAR                         # Any single component or combination of SIE, POW, NFW, SERS, EIN, PERT, MPOLE separated by '+'
 INIT_PARAM = 'Random'               # Manual/Auto/Random
 PATH = Test/                        # Path for models to be saved to
 ZL = 0.2300                         # Lens Redshift
