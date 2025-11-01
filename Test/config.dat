@@ -28,6 +28,7 @@ MAXLEV = 1                          # Maximum Level of Adaptive Meshing
 # SECONDARY PARAMETERS
 CHI2_PLANE = 1                      # 0 - Image Plane (SLOWER), 1 - Source Plane (FASTER)
 USEMAG = 0                          # 0 - Flux, 1 - Magnifications
+VARYH0 = 0                          # 0 - Keep Constant, 1 - Vary
 
 
 
