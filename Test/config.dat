@@ -53,4 +53,4 @@ ZL = 0.2300                         # Lens Redshift
 
 
 # PLOTTING
-FLUX_OBS_POS = 0                    # 0 - Not Plotted, 1 - Plotted
+FLUX_OBS_POS = 1                    # 0 - Not Plotted, 1 - Plotted
