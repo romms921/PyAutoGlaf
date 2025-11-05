@@ -6,7 +6,7 @@ INPATH = Input                     # Path to input files
 RUNPATH = Run                      # Path where run files will be generated
 
 # CONSTRAINTS 
-CONSTRAINT = pos+flux               # Any single constraint or combination of POS, FLUX, TD & PARITY separated by '+'
+CONSTRAINT = pos+flux+td               # Any single constraint or combination of POS, FLUX, TD & PARITY separated by '+'
 
 
 
