@@ -55,3 +55,7 @@ ZL = 0.2300                         # Lens Redshift
 # PLOTTING
 FLUX_OBS_POS = 1                    # 0 - Not Plotted, 1 - Plotted
 MAG_RATIO = 0                       # 1 - Absolute Magnification Ratios, 0 - Absolute Magnifications (can only be used if USEMAG = 1)
+BACKGROUND = 0                      # 0 - White, 1 - Black
+PLOT_MODE = 0                       # 0 - Combined Plots, 1 - Single Plots
+PLOT_SAVE = Plots                   # Path to saved Plots
+DPI = 300                           # DPI of the Plots
