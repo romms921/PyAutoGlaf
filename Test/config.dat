@@ -1,12 +1,12 @@
 ###########################----------- PARAMETERS -----------###########################
 
 # PATHS
-OUTPATH = Output                   # Path for models to be saved to
-INPATH = Input                     # Path to input files
-RUNPATH = Run                      # Path where run files will be generated
+OUTPATH = Output                    # Path for models to be saved to
+INPATH = Input                      # Path to input files
+RUNPATH = Run                       # Path where run files will be generated
 
 # CONSTRAINTS 
-CONSTRAINT = pos+flux+td               # Any single constraint or combination of POS, FLUX, TD & PARITY separated by '+'
+CONSTRAINT = pos+flux+td            # Any single constraint or combination of POS, FLUX, TD & PARITY separated by '+'
 
 
 
@@ -53,7 +53,7 @@ ZL = 0.2300                         # Lens Redshift
 
 
 # PLOTTING
-FLUX_OBS_POS = 1                    # 0 - Not Plotted, 1 - Plotted
+FLUX_OBS_POS = 0                    # 0 - Not Plotted, 1 - Plotted
 MAG_RATIO = 0                       # 1 - Absolute Magnification Ratios, 0 - Absolute Magnifications (can only be used if USEMAG = 1)
 BACKGROUND = 0                      # 0 - White, 1 - Black
 PLOT_MODE = 0                       # 0 - Combined Plots, 1 - Single Plots
